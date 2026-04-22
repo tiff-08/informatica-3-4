@@ -21,6 +21,22 @@ int main(void)
     printf("Vending Machine Stock\n");
     printf("--------------------------\n");
     printf("Item name: Tortas Chuma\n");
-    
+    printf("Price:\t $%.2f\n", price1);
+     printf("Quantity available:\t 15\n", quantity1);
+     printf("Selection code:\t %c\n", select1);
+
+     printf("Vending Machine Stock\n");
+    printf("--------------------------\n");
+    printf("Item name: Doritos\n");
+    printf("Price:\t $%.2f\n", price2);
+     printf("Quantity available:\t %d\n", quantity2);
+     printf("Selection code:\t %c\n", select2);
+
+     printf("Vending Machine Stock\n");
+    printf("--------------------------\n");
+    printf("Item name: Oreo\n");
+    printf("Price:\t $%.2f\n", price3);
+     printf("Quantity available:\t %d\n", quantity3);
+     printf("Selection code:\t %c\n", select3);
 
 }
