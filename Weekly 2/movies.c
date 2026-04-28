@@ -12,7 +12,7 @@ int main(void)
     int Runtime= Minutes/60;
     int Runtime2= Minutes%60;
     int Endtime= Starttime+Runtime;
-    int Endtime2= Starttime+Runtime2;
+    int Endtime2 = Starttime+Runtime2;
     printf("The movie will last %d hours and %d minutes\n", Runtime, Runtime2);
     printf("End Time %d:%d \n", Endtime, Endtime2);
 }
